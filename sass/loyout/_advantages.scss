@@ -21,7 +21,7 @@
 .advantages {
   display: flex;
 
-  & .item {
+  .item {
     width: calc((100%-90px) / 4);
     margin-right: 30px;
 
@@ -29,14 +29,14 @@
       margin-right: 0;
     }
   }
-  & .title {
+  .title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: $title-text-color;
   }
-  & .text {
+  .text {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 14px;
