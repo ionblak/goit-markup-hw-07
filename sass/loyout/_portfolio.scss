@@ -23,9 +23,7 @@
   padding-left: 22px;
   background-color: $team-bg-color;
   border-radius: 4px;
-  border-color: $team-bg-color;
   border: none;
-  outline: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -85,7 +83,7 @@
 }
 
 .projects-link {
-  border: 1px solid $border-projekt;
+  border: 1px solid $border-project;
 }
 .projects-box {
   position: relative;
